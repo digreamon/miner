@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    >
+    
+    <LinearLayout 
+        android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:layout_centerInParent="true"
+		android:orientation="vertical"
+        >
+        
+        <View 
+            android:layout_height="1dp"
+		    android:layout_width="match_parent"
+		    android:layout_marginBottom="10dp"
+		    android:background="@color/grey"
+            />
+        
+        <TextView 
+            android:id="@+id/lbl_game_name" 
+            android:layout_height="wrap_content"
+		    android:layout_width="match_parent"
+		    android:text="@string/lbl_game_name"
+            />
+        
+        <EditText
+            android:id="@+id/input_game_name" 
+            android:layout_height="wrap_content"
+		    android:layout_width="match_parent"
+		    android:hint="@string/app_name"
+            />
+        
+        <Button 
+		    android:id="@+id/btn_start_game"
+		    android:layout_height="wrap_content"
+		    android:layout_width="match_parent"
+		    android:text="@string/btn_start_game"
+		    />
+	    
+        <View 
+            android:layout_height="1dp"
+		    android:layout_width="match_parent"
+		    android:layout_marginTop="10dp"
+		    android:layout_marginBottom="10dp"
+		    android:background="@color/grey"
+            />
+        
+		<Button 
+		    android:id="@+id/btn_connect_game"
+		    android:layout_height="wrap_content"
+		    android:layout_width="match_parent"
+		    android:text="@string/btn_connect_game"
+		    />
+		
+		<View 
+            android:layout_height="1dp"
+		    android:layout_width="match_parent"
+		    android:layout_marginTop="10dp"
+		    android:background="@color/grey"
+            />
+    </LinearLayout>
+	
+</RelativeLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout 
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal"
+    	android:gravity="center_vertical"
+    	android:weightSum="100"
+        >
+        <Spinner 
+	        android:id="@+id/select_field_size"
+	        android:layout_height="wrap_content"
+	        android:layout_width="0dp"
+	        android:layout_weight="50"
+	        android:spinnerMode="dropdown"
+	        />
+        <Button 
+            android:id="@+id/btn_finish_set_mines"
+            android:layout_height="wrap_content"
+	        android:layout_width="0dp"
+	        android:layout_weight="50"
+	        android:enabled="false"
+	        android:text="@string/btn_finish_set_mines"
+            />
+    </LinearLayout>
+    <include 
+        layout="@layout/miner_field_layout"
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+        />
+</LinearLayout>
+

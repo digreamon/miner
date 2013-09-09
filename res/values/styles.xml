@@ -1,0 +1,5 @@
+<resources>
+    <style name="MinerBaseTheme" parent="@android:style/Theme.Holo.NoActionBar">
+    </style>
+    <style name="DialogBaseTheme" parent="@android:style/Theme.Holo.Dialog.NoActionBar"></style>
+</resources>

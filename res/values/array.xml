@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dimen_lbls">
+        <item>8x8</item>
+        <item>12x12</item>
+        <item>16x16</item>
+        <item>20x20</item>
+        <item>24x24</item>
+    </string-array>
+    
+    <integer-array name="dimen_vals">
+        <item>8</item>
+        <item>12</item>
+        <item>16</item>
+        <item>20</item>
+        <item>24</item>
+    </integer-array>
+</resources>

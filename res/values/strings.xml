@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Android BlueTooth Miner</string>
+    
+    <string name="dlg_ctl_cancel">Cancel</string>
+    <string name="dlg_ctl_ok">OK</string>
+    <string name="dlg_msg_miner_wins">Miner wins!</string>
+    <string name="dlg_msg_sapper_wins">Sapper wins!</string>
+    <string name="dlg_msg_err_connect_oponent">Failed to connect to opponent, please try again.</string>
+    <string name="dlg_msg_err_connect_device">Failed to establish connection with device, please try again.</string>
+    <string name="dlg_msg_err_interrupted">Opponent has interrupted the game.</string>
+    <string name="dlg_msg_no_blue_tooth">BlueTooth is unavailable on this device. Sorry.</string>
+    <string name="dlg_msg_op_abandoned">Your opponent has abandoned the game!</string>
+    <string name="dlg_ttl_err">Error</string>
+    <string name="dlg_ttl_finish">Game over</string>
+    
+    <string name="btn_be_miner">Be a miner</string>
+    <string name="btn_be_sapper">Be a sapper</string>
+    <string name="btn_cancel_con_master">Stop waiting</string>
+    <string name="btn_cancel_con_slave">Cancel connecting</string>
+    <string name="btn_connect_game">Connect to the Game</string>
+    <string name="btn_devices_rescan">Rescan</string>
+    <string name="btn_go_game">GO</string>
+    <string name="btn_finish_set_mines">Finish setting of the mines</string>
+    <string name="btn_start_game">Start a Game</string>
+    
+    <string name="lbl_devices_search">Available Miner server devices:</string>
+    <string name="lbl_game_name">Your game name:</string>
+    <string name="lbl_select_player">Select your player role:</string>
+    
+    <string name="msg_connecting_master">Please, wait, while another player connects to your game&#8230;</string>
+    <string name="msg_connecting_slave">Please, wait, while connecting to game provider&#8230;</string>
+    <string name="msg_searshing_devices">Please, wait, while searching game providers&#8230;</string>
+    <string name="msg_op_start_game">Opponent has started the game!</string>
+    <string name="msg_wait_miner">Please, wait for miner to set the mines&#8230;</string>
+    <string name="msg_watch_sapper_play">Sit back and watch sapper\'s play.</string>
+    
+</resources>

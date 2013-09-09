@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/lbl_select_player"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_select_player"
+            android:textSize="14sp"/>
+
+        <ToggleButton
+            android:id="@+id/btn_be_miner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textOff="@string/btn_be_miner"
+            android:textOn="@string/btn_be_miner" />
+
+        <ToggleButton
+            android:id="@+id/btn_be_sapper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textOff="@string/btn_be_sapper"
+            android:textOn="@string/btn_be_sapper" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_go_game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/btn_go_game" 
+        android:visibility="invisible"/>
+
+</RelativeLayout>
